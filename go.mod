@@ -2,4 +2,8 @@ module github.com/namp10010/go-error
 
 go 1.20
 
-require golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
+require (
+	github.com/pkg/errors v0.9.1
+	github.com/ztrue/tracerr v0.4.0
+	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da
+)
